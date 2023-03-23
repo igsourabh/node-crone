@@ -6,7 +6,7 @@ cron.schedule('*/10 * * * * *', () => {
   exec('git add . && git commit -m "Automated commit" && git push', (error, stdout, stderr) => {
     if (error) {
       console.error(`Error: ${error}`);
-      return;
+      return; 
     }
     console.log(`Git commit successful: ${stdout}`);
   });
