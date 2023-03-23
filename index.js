@@ -8,6 +8,6 @@ cron.schedule('*/10 * * * * *', () => {
       console.error(`Error: ${error}`);
       return; 
     }
-    console.log(`Git commit successful: ${stdout}`);
+    console.log(`Git commit successful1: ${stdout}`);
   });
 });        
