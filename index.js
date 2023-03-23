@@ -10,4 +10,4 @@ cron.schedule('* * * * *', () => {
     }
     console.log(`Git commit successful: ${stdout}`);
   });
-});  
+});    
